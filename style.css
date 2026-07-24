@@ -65,6 +65,12 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.15;col
   color:var(--gold);margin-bottom:14px;
 }
 .eyebrow--gold{color:var(--gold-light);}
+.google-reviews-link{
+  display:inline-flex;align-items:center;gap:8px;
+}
+.google-reviews-link svg{
+  width:20px;height:20px;flex:0 0 auto;
+}
 
 .section{padding:120px 0;}
 .section--dark{background:var(--navy-900);color:#DCE3EC;}
